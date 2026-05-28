@@ -22,9 +22,6 @@ const { loadLaunchesData } = require('./models/launches.model');
 
 const PORT = process.env.PORT || 8000;
 
-// const MONGO_URL =
-//   'mongodb+srv://nasa-api:fkTCR9JOHrgqH7Kl@nasacluster.n3pr9.mongodb.net/?retryWrites=true&w=majority&appName=NASACluster';
-
 const server = http.createServer(app);
 
 // mongoose.connection.once('open', () => {
